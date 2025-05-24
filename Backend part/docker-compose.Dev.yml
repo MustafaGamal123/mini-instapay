@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  usermanagementservice:
+    build:
+      context: ./UserManagementService
+      dockerfile: Dockerfile
+    ports:
+      - "7062:80"   # 6062 + 1000
+    depends_on:
+      - sqlserver-dev5
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev5;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network-dev2
+
+  transactionservice:
+    build:
+      context: ./TransactionService
+      dockerfile: Dockerfile
+    ports:
+      - "7063:80"
+    depends_on:
+      - sqlserver-dev5
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev5;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network-dev2
+
+  reportingservice:
+    build:
+      context: ./ReportingService
+      dockerfile: Dockerfile
+    ports:
+      - "7064:80"
+    depends_on:
+      - sqlserver-dev5
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev5;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network-dev2
+
+  notificationapi:
+    build:
+      context: ./NotificationService
+      dockerfile: Dockerfile
+    ports:
+      - "7065:80"
+    depends_on:
+      - sqlserver-dev5
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev5;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network-dev2
+
+  sqlserver-dev5:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "1436:1433"   # 1435 + 1
+    volumes:
+      - sqldata-dev2:/var/opt/mssql
+    networks:
+      - app-network-dev2
+
+networks:
+  app-network-dev2:
+    driver: bridge
+
+volumes:
+  sqldata-dev2:

@@ -1,0 +1,181 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TransactionService",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/transactionsApis": {
+      "post": {
+        "tags": [
+          "transactionsApis"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/transactionsApis/GetLogs/{id}": {
+      "get": {
+        "tags": [
+          "transactionsApis"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LogsDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LogsDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LogsDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/transactionsApis/balance/{id}": {
+      "get": {
+        "tags": [
+          "transactionsApis"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LogsDTO": {
+        "type": "object",
+        "properties": {
+          "sentTransactions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/logsSent"
+            },
+            "nullable": true
+          },
+          "receivedTransactions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/logsRecieved"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransactionDTO": {
+        "type": "object",
+        "properties": {
+          "senderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "receiverId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "moneyValue": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "logsRecieved": {
+        "type": "object",
+        "properties": {
+          "senderID": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "number",
+            "format": "double"
+          },
+          "dateAndTime": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "logsSent": {
+        "type": "object",
+        "properties": {
+          "receivedId": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "number",
+            "format": "double"
+          },
+          "dateAndTime": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

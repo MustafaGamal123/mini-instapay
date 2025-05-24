@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifcationAPI", "NotifcationAPI\NotifcationAPI.csproj", "{EBC572EA-3FC9-46C2-A600-0DBC3FFFD771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{64987F5F-B8F5-4504-8E56-28EDFE2A4294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAccessLayer", "DbAccessLayer\DbAccessLayer.csproj", "{5991625D-6B0A-45FD-97CE-C5B519CF0F12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC572EA-3FC9-46C2-A600-0DBC3FFFD771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC572EA-3FC9-46C2-A600-0DBC3FFFD771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC572EA-3FC9-46C2-A600-0DBC3FFFD771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC572EA-3FC9-46C2-A600-0DBC3FFFD771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64987F5F-B8F5-4504-8E56-28EDFE2A4294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64987F5F-B8F5-4504-8E56-28EDFE2A4294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64987F5F-B8F5-4504-8E56-28EDFE2A4294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64987F5F-B8F5-4504-8E56-28EDFE2A4294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5991625D-6B0A-45FD-97CE-C5B519CF0F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5991625D-6B0A-45FD-97CE-C5B519CF0F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5991625D-6B0A-45FD-97CE-C5B519CF0F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5991625D-6B0A-45FD-97CE-C5B519CF0F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

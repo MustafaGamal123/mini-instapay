@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: usermanagementservice-config
+  namespace: claud-project
+data:
+  ASPNETCORE_ENVIRONMENT: "Development"
+  ASPNETCORE_URLS: "http://+:80"
+  CONNECTIONSTRINGS__DEFAULTCONNECTION: "Server=sqlserver;Database=UserManagementServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"

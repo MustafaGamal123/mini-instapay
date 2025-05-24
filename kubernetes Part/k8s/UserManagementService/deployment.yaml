@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usermanagementservice
+  namespace: claud-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: usermanagementservice
+  template:
+    metadata:
+      labels:
+        app: usermanagementservice
+    spec:
+      containers:
+        - name: usermanagementservice
+          image: production-usermanagementservice:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: usermanagementservice-config
+            

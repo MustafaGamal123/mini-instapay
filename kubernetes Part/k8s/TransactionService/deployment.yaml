@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transactionservice
+  namespace: claud-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: transactionservice
+  template:
+    metadata:
+      labels:
+        app: transactionservice
+    spec:
+      containers:
+        - name: transactionservice
+          image: production-transactionservice:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: transaction-config
+
+            

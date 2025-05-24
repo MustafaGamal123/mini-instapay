@@ -1,0 +1,81 @@
+version: '3.8' 
+ 
+services: 
+  usermanagementservice: 
+    build: 
+      context: ./UserManagementService 
+      dockerfile: Dockerfile 
+    ports: 
+      - "5062:80"  # Map host port 5062 to container port 80 
+    depends_on: 
+      - sqlserver-dev3 
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Production 
+      - ASPNETCORE_URLS=http://+:80  # Ensure ASP.NET Core listens on container's port 80 
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev3;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True; 
+    networks: 
+      - app-network
+
+  transactionservice:
+    build:
+      context: ./TransactionService
+      dockerfile: Dockerfile
+    ports:
+      - "5063:80"  # Map host port 5063 to container port 80
+    depends_on:
+      - sqlserver-dev3
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80  # Ensure ASP.NET Core listens on container's port 80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev3;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network
+
+  reportingservice:
+    build:
+      context: ./ReportingService
+      dockerfile: Dockerfile
+    ports:
+      - "5064:80"  # Map host port 5064 to container port 80
+    depends_on:
+      - sqlserver-dev3
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80  # Ensure ASP.NET Core listens on container's port 80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev3;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network
+
+  notificationapi:
+    build:
+      context: ./NotificationService
+      dockerfile: Dockerfile
+    ports:
+      - "5065:80"  # Map host port 5065 to container port 80
+    depends_on:
+      - sqlserver-dev3
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80  # Ensure ASP.NET Core listens on container's port 80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver-dev3;Database=UserManagemntServiceDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    networks:
+      - app-network
+ 
+  sqlserver-dev3: 
+    image: mcr.microsoft.com/mssql/server:2022-latest 
+    environment: 
+      - ACCEPT_EULA=Y 
+      - SA_PASSWORD=YourStrong!Passw0rd 
+    ports: 
+      - "1434:1433"  # Optional: exposes SQL Server to host 
+    volumes: 
+      - sqldata:/var/opt/mssql 
+    networks: 
+      - app-network 
+ 
+networks: 
+  app-network: 
+    driver: bridge 
+ 
+volumes: 
+  sqldata:

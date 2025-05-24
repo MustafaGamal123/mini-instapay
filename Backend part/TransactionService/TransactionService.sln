@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAccessLayer", "DbAccessLayer\DbAccessLayer.csproj", "{DFE00588-27F4-4F7B-8D21-CB11520B3A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{05603C76-FD8C-4548-8B97-5BA310137B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService", "TransactionService\TransactionService.csproj", "{B5C71792-9C0E-489E-A479-C49F9086EDF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE00588-27F4-4F7B-8D21-CB11520B3A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE00588-27F4-4F7B-8D21-CB11520B3A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE00588-27F4-4F7B-8D21-CB11520B3A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE00588-27F4-4F7B-8D21-CB11520B3A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05603C76-FD8C-4548-8B97-5BA310137B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05603C76-FD8C-4548-8B97-5BA310137B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05603C76-FD8C-4548-8B97-5BA310137B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05603C76-FD8C-4548-8B97-5BA310137B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C71792-9C0E-489E-A479-C49F9086EDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C71792-9C0E-489E-A479-C49F9086EDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C71792-9C0E-489E-A479-C49F9086EDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C71792-9C0E-489E-A479-C49F9086EDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: notificationservice
+  namespace: claud-project
+spec:
+  selector:
+    app: notificationservice
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30086  
+  type: NodePort

@@ -1,0 +1,6 @@
+@RepotingService_HostAddress = http://localhost:5157
+
+GET {{RepotingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

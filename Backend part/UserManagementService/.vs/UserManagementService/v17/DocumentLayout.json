@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Claudcomputing\\Claud\\UserManagementService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\controllers\\usermanagementapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\controllers\\usermanagementapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\dbaccesslayer\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|solutionrelative:dbaccesslayer\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\businesslayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\businesslayer\\userauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\userauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\usermanagementservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\usermanagementservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\dbaccesslayer\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|solutionrelative:dbaccesslayer\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\usermanagementservice\\usermanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F511A8E7-08BA-4AA6-A651-4965D246B4D8}|UserManagementService\\UserManagementService.csproj|solutionrelative:usermanagementservice\\usermanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\dbaccesslayer\\dbaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{257D8FD9-7B21-40F2-875B-3EEBAB7A0663}|DbAccessLayer\\DbAccessLayer.csproj|solutionrelative:dbaccesslayer\\dbaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|e:\\claudcomputing\\claud\\usermanagementservice\\businesslayer\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01913AD7-70C8-43F8-8E2E-268DCF19BF8C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{904d9a5a-bbb5-47da-9531-d910e81fa928}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Staging.json",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.Staging.json",
+              "RelativeDocumentMoniker": "UserManagementService\\appsettings.Staging.json",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.Staging.json",
+              "RelativeToolTip": "UserManagementService\\appsettings.Staging.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T19:16:21.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "UserManagementService\\appsettings.Production.json",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.Production.json",
+              "RelativeToolTip": "UserManagementService\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T19:15:48.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserAuthDTO.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\UserAuthDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\UserAuthDTO.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\UserAuthDTO.cs",
+              "RelativeToolTip": "BusinessLayer\\UserAuthDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:30:54.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\UserManager.cs",
+              "RelativeDocumentMoniker": "DbAccessLayer\\UserManager.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\UserManager.cs",
+              "RelativeToolTip": "DbAccessLayer\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:24:33.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DbAccessLayer\\UserDTO.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\UserDTO.cs",
+              "RelativeToolTip": "DbAccessLayer\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:28:18.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserManagementService.csproj",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\UserManagementService.csproj",
+              "RelativeDocumentMoniker": "UserManagementService\\UserManagementService.csproj",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\UserManagementService.csproj",
+              "RelativeToolTip": "UserManagementService\\UserManagementService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T15:32:29.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManagementService.http",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\UserManagementService.http",
+              "RelativeDocumentMoniker": "UserManagementService\\UserManagementService.http",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\UserManagementService.http",
+              "RelativeToolTip": "UserManagementService\\UserManagementService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-06T07:49:31.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\Register.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Register.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\Register.cs",
+              "RelativeToolTip": "BusinessLayer\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:31:50.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManagementApi.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\Controllers\\UserManagementApi.cs",
+              "RelativeDocumentMoniker": "UserManagementService\\Controllers\\UserManagementApi.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\Controllers\\UserManagementApi.cs",
+              "RelativeToolTip": "UserManagementService\\Controllers\\UserManagementApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:26:14.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagementService\\appsettings.json",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\UserManagementService\\appsettings.json",
+              "RelativeToolTip": "UserManagementService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T19:02:44.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbAccessLayer.csproj",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\DbAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DbAccessLayer\\DbAccessLayer.csproj",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\DbAccessLayer\\DbAccessLayer.csproj",
+              "RelativeToolTip": "DbAccessLayer\\DbAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T15:37:23.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\LoginHandler.cs",
+              "ToolTip": "E:\\Claudcomputing\\Claud\\UserManagementService\\BusinessLayer\\LoginHandler.cs",
+              "RelativeToolTip": "BusinessLayer\\LoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:24:12.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

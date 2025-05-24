@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reportingservice
+  namespace: claud-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reportingservice
+  template:
+    metadata:
+      labels:
+        app: reportingservice
+    spec:
+      containers:
+        - name: reportingservice
+          image: production-reportingservice:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: reporting-config
+            

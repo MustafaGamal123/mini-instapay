@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "TransactionServices.Controllers.transactionsApis",
+    "Method": "SendMoney",
+    "RelativePath": "api/transactionsApis",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionDTO",
+        "Type": "DbAccessLayer.TransactionRepo\u002BTransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransactionServices.Controllers.transactionsApis",
+    "Method": "GetUserBalanceApi",
+    "RelativePath": "api/transactionsApis/balance/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransactionServices.Controllers.transactionsApis",
+    "Method": "GetLogs",
+    "RelativePath": "api/transactionsApis/GetLogs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DbAccessLayer.TransactionRepo\u002BLogsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "NotifcationAPI.Controllers.NotifcationAPI",
+    "Method": "GetTriggerFlagApi",
+    "RelativePath": "api/NotifcationAPI/GetTriggerFlag/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotifcationAPI.Controllers.NotifcationAPI",
+    "Method": "GetLatestNotificationValueApi",
+    "RelativePath": "api/NotifcationAPI/LatestAddedValue/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotifcationAPI.Controllers.NotifcationAPI",
+    "Method": "SetTriggerTrue",
+    "RelativePath": "api/NotifcationAPI/SetTriggerTrue/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
