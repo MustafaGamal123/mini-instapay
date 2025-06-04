@@ -11,6 +11,6 @@ Mini-InstaPay is a distributed payment system using microservices architecture w
 
 ![Login Screen](register222.jpg)  
 ![Welcome Back Screen](welcomback.jpg)  
+![Report With Notifications Screen](reportwithnotification.jpg)  
 ![Transaction Screen](transaction.jpg)  
-![Report With Notifications Screen](reportwithnoificationt.jpg)  
 ![Logs Screen](logs.jpg)
